@@ -85,6 +85,70 @@
                             </Style>
                         </Button.Style>
                     </Button>
+
+                    <Button Background="Transparent"
+                        Margin="10">
+                        <StackPanel>
+                            <Image Height="35"
+                           Width="35"
+                           Margin="5"
+                           Source="/Assets/menu.png"/>
+                            <TextBlock Text="Home"                               
+                               Foreground="#b2bec3"
+                               HorizontalAlignment="Center"/>
+                        </StackPanel>
+                        <Button.Style>
+                            <Style TargetType="Button">
+                                <Setter Property="Background" Value="Transparent" />
+                                <Setter Property="Template">
+                                    <Setter.Value>
+                                        <ControlTemplate TargetType="Button">
+                                            <Border Background="{TemplateBinding Background}">
+                                                <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                            </Border>
+                                        </ControlTemplate>
+                                    </Setter.Value>
+                                </Setter>
+                                <Style.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter Property="Background" Value="Transparent" />
+                                    </Trigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Button.Style>
+                    </Button>
+
+                    <Button Background="Transparent"
+                        Margin="10">
+                        <StackPanel>
+                            <Image Height="35"
+                           Width="35"
+                           Margin="5"
+                           Source="/Assets/menu.png"/>
+                            <TextBlock Text="Home"                               
+                               Foreground="#b2bec3"
+                               HorizontalAlignment="Center"/>
+                        </StackPanel>
+                        <Button.Style>
+                            <Style TargetType="Button">
+                                <Setter Property="Background" Value="Transparent" />
+                                <Setter Property="Template">
+                                    <Setter.Value>
+                                        <ControlTemplate TargetType="Button">
+                                            <Border Background="{TemplateBinding Background}">
+                                                <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                            </Border>
+                                        </ControlTemplate>
+                                    </Setter.Value>
+                                </Setter>
+                                <Style.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter Property="Background" Value="Transparent" />
+                                    </Trigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Button.Style>
+                    </Button>
                 </StackPanel>
 
                 <Border DockPanel.Dock="Bottom"
@@ -152,8 +216,8 @@
 
             </Border>
 
-            <Border Grid.Column="1"
-                    Background="#046B99"
+            <Border Grid.Column="1" 
+                    Background="#FFA500"
                     BorderBrush="Transparent"
                     BorderThickness="1"
                     CornerRadius="20"
@@ -214,7 +278,7 @@
                             Grid.Row="0"
                             BorderBrush="Transparent"
                             BorderThickness="1"
-                            Background="#00CFFF"
+                            Background="#c72230"
                             Margin="10"
                             CornerRadius="20">
 
@@ -237,7 +301,7 @@
                             <Border Grid.Row="1"
                                     BorderBrush="Transparent"
                                     BorderThickness="1"
-                                    Background="#B3EFFF"
+                                    Background="#d6bfc1"
                                     Margin="10 0 10 10"
                                     CornerRadius="20">
                                 <StackPanel>
@@ -255,7 +319,7 @@
                             Grid.Row="1"
                             BorderBrush="Transparent"
                             BorderThickness="1"
-                            Background="#00CFFF"
+                            Background="#181A18"
                             Margin="10"
                             CornerRadius="20">
 
@@ -299,7 +363,7 @@
                             Grid.Row="1"
                             BorderBrush="Transparent"
                             BorderThickness="1"
-                            Background="#00CFFF"
+                            Background="#8a2be2"
                             Margin="10"
                             CornerRadius="20">
 
