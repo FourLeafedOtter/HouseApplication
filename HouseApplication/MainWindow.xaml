@@ -264,11 +264,27 @@
                                     Background="#CCFF04"
                                     Margin="10 0 10 10"
                                     CornerRadius="20">
-                                <StackPanel>
-                                    <TextBlock Text="Obviously the winning team"
-                                               Margin="10"
-                                               TextWrapping="Wrap"/>
-                                </StackPanel>
+                                <DockPanel LastChildFill="False"
+                                           Margin="10">
+                                    <StackPanel DockPanel.Dock="Left">
+                                        <TextBlock Text="Points" 
+                                                   FontSize="15"
+                                                   HorizontalAlignment="Center"/>
+                                        <TextBlock Text="145"
+                                                   HorizontalAlignment="Center"
+                                                   Margin="10"
+                                                   FontSize="20"/>
+                                    </StackPanel>
+                                    <StackPanel DockPanel.Dock="Right">
+                                        <TextBlock Text="Points" 
+                                                   FontSize="15"
+                                                   HorizontalAlignment="Center"/>
+                                        <TextBlock Text="145"
+                                                   HorizontalAlignment="Center"
+                                                   Margin="10"
+                                                   FontSize="20"/>
+                                    </StackPanel>
+                                </DockPanel>
                             </Border>
                         </Grid>
                     </Border>
